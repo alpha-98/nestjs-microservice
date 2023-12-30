@@ -2,6 +2,10 @@
 /dist
 /node_modules
 
+libs/common/src/config/env/*
+!libs/common/src/config/env/.env.example
+!libs/common/src/config/env/env.schema.ts
+
 # Logs
 logs
 *.log
